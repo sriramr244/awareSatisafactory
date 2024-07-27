@@ -49,5 +49,16 @@ This is the ERP project for Satisfactory game called awareSatisfactory. This REA
 - **app.py**: Entry point for the frontend application.
 - **requirements.txt**: Lists the Python dependencies required for the frontend.
 
+### Languages chosen
+- Backend: Python
+- Frontend: Python (for now)
+  
+## Frameworks chosen
+- Backend: Fastapi
+- Frontend: Streamlit
+
+## Database
+- Local JSON (for now, but planning MongoDB for future)
+
 
 
