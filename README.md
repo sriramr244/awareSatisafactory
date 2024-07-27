@@ -3,24 +3,24 @@
 This is the ERP project for Satisfactory game called awareSatisfactory. This README provides an overview of the folder structure and purpose of each file and directory in the project.
 
 ## Folder Structure
-awareSatisfactory/
-├── backend/
-│ ├── app/
-│ │ ├── init.py
-│ │ ├── main.py
-│ │ ├── models.py
-│ │ ├── schemas.py
-│ │ ├── crud.py
-│ │ ├── database.py
-│ ├── requirements.txt
-│ ├── data/
-│ │ ├── users.json
-│ ├── gunicorn_conf.py
-├── frontend/
-│ ├── app.py
-│ ├── requirements.txt
-├── .gitignore
-├── README.md
+`awareSatisfactory/
+`├── backend/
+`│ ├── app/
+`│ │ ├── init.py
+`│ │ ├── main.py
+`│ │ ├── models.py
+`│ │ ├── schemas.py
+`│ │ ├── crud.py
+`│ │ ├── database.py
+`│ ├── requirements.txt
+`│ ├── data/
+`│ │ ├── users.json
+`│ ├── gunicorn_conf.py
+`├── frontend/
+`│ ├── app.py
+`│ ├── requirements.txt
+`├── .gitignore
+`├── README.md
 
 
 ## Description of Files and Directories
