@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dock_1",
+    "name": "Inventory Management",
+    "dockInfo": {
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-07-26T14:00:00Z"
+    },
+    "tanks": [
+      {
+        "name": "Products",
+        "columns": [
+          { "name": "Product ID", "data_type": "String" },
+          { "name": "Product Name", "data_type": "String" },
+          { "name": "Category", "data_type": "String" },
+          { "name": "Price", "data_type": "Float" },
+          { "name": "Stock", "data_type": "Integer" }
+        ]
+      },
+      {
+        "name": "Suppliers",
+        "columns": [
+          { "name": "Supplier ID", "data_type": "String" },
+          { "name": "Supplier Name", "data_type": "String" },
+          { "name": "Contact", "data_type": "String" },
+          { "name": "Address", "data_type": "String" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dock_2",
+    "name": "Production Planning",
+    "dockInfo": {
+      "created_at": "2024-02-15T12:30:00Z",
+      "updated_at": "2024-07-26T14:00:00Z"
+    },
+    "tanks": [
+      {
+        "name": "Work Orders",
+        "columns": [
+          { "name": "Work Order ID", "data_type": "String" },
+          { "name": "Product ID", "data_type": "String" },
+          { "name": "Quantity", "data_type": "Integer" },
+          { "name": "Start Date", "data_type": "Date" },
+          { "name": "End Date", "data_type": "Date" },
+          { "name": "Status", "data_type": "String" }
+        ]
+      },
+      {
+        "name": "Bill of Materials",
+        "columns": [
+          { "name": "BOM ID", "data_type": "String" },
+          { "name": "Product ID", "data_type": "String" },
+          { "name": "Component ID", "data_type": "String" },
+          { "name": "Quantity", "data_type": "Integer" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dock_3",
+    "name": "Task Optimization",
+    "dockInfo": {
+      "created_at": "2024-03-20T09:00:00Z",
+      "updated_at": "2024-07-26T14:00:00Z"
+    },
+    "tanks": [
+      {
+        "name": "Tasks",
+        "columns": [
+          { "name": "Task ID", "data_type": "String" },
+          { "name": "Task Name", "data_type": "String" },
+          { "name": "Assigned To", "data_type": "String" },
+          { "name": "Due Date", "data_type": "Date" },
+          { "name": "Priority", "data_type": "String" }
+        ]
+      },
+      {
+        "name": "Employees",
+        "columns": [
+          { "name": "Employee ID", "data_type": "String" },
+          { "name": "Employee Name", "data_type": "String" },
+          { "name": "Role", "data_type": "String" },
+          { "name": "Availability", "data_type": "String" }
+        ]
+      }
+    ]
+  }
+]
