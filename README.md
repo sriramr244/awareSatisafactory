@@ -9,23 +9,23 @@ This is the ERP project for Satisfactory game called awareSatisfactory. This REA
 `│ │ ├── init.py`<br/>
 `│ │ ├── main.py`<br/>
 `│ │ ├── models.py`<br/>
-`│ │ ├── schemas.py`
-`│ │ ├── crud.py`
-`│ │ ├── database.py`
-`│ ├── requirements.txt`
-`│ ├── data/`
-`│ │ ├── users.json`
-`│ ├── gunicorn_conf.py`
-`├── frontend/`
-`│ ├── app.py`
-`│ ├── requirements.txt`
-`├── .gitignore`
-`├── README.md`
+`│ │ ├── schemas.py`<br/>
+`│ │ ├── crud.py`<br/>
+`│ │ ├── database.py`<br/>
+`│ ├── requirements.txt`<br/>
+`│ ├── data/`<br/>
+`│ │ ├── users.json`<br/>
+`│ ├── gunicorn_conf.py`<br/>
+`├── frontend/`<br/>
+`│ ├── app.py`<br/>
+`│ ├── requirements.txt`<br/>
+`├── .gitignore`<br/>
+`├── README.md`<br/>
 
 
 ## Description of Files and Directories
 
-### Root Directory (`satisfactory-web-app/`)
+### Root Directory (`awareSatisfactory/`)
 
 - **.gitignore**: Specifies files and directories that should be ignored by Git.
 - **README.md**: Provides an overview and documentation for the project.
