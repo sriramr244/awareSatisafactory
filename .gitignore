@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+myenv/
 # C extensions
 *.so
 
@@ -67,7 +68,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
+scripts.sh
 # Sphinx documentation
 docs/_build/
 
