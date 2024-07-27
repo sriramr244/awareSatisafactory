@@ -3,12 +3,12 @@
 This is the ERP project for Satisfactory game called awareSatisfactory. This README provides an overview of the folder structure and purpose of each file and directory in the project.
 
 ## Folder Structure
-`awareSatisfactory/`
-`├── backend/`
-`│ ├── app/`
-`│ │ ├── init.py`
-`│ │ ├── main.py`
-`│ │ ├── models.py`
+`awareSatisfactory/`<br/>
+`├── backend/`<br/>
+`│ ├── app/`<br/>
+`│ │ ├── init.py`<br/>
+`│ │ ├── main.py`<br/>
+`│ │ ├── models.py`<br/>
 `│ │ ├── schemas.py`
 `│ │ ├── crud.py`
 `│ │ ├── database.py`
