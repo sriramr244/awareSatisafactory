@@ -1,5 +1,6 @@
 from pydantic import BaseModel
 from typing import List
+from datetime import datetime
 
 
 class Column(BaseModel):
@@ -13,12 +14,12 @@ class Tank(BaseModel):
 
 
 class DockInfo(BaseModel):
-    created_at: str
-    updated_at: str
+    created_at: datetime
+    updated_at: datetime
 
 
 class Dock(BaseModel):
     id: str
     name: str
-    dockInfo: DockInfo
+    metadata: DockInfo
     tanks: List[Tank]
