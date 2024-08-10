@@ -66,15 +66,15 @@ To set up and run the backend server, follow these steps:
    ```sh
    git clone <repository-url>
    cd awareSatisfactory/backend
-2. **Install Dependancies:**
-    ```sh
-    pip install -r requirements.txt
-3. **Create virtural environment:**
+2. **Create virtural environment:**
     ```sh
     python3.10 -m venv benv
 4. **Activate the virtual environment:**
    ```sh
    source benv/bin/activate
+3. **Install Dependancies:**
+    ```sh
+    pip install -r requirements.txt
 5. **Run the Application:***
    ```sh
    benv/bin/uvicorn app.mainapp --reload
