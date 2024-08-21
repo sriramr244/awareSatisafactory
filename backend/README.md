@@ -77,7 +77,7 @@ To set up and run the backend server, follow these steps:
     pip install -r requirements.txt
 5. **Run the Application:***
    ```sh
-   benv/bin/uvicorn app.mainapp --reload
+   benv/bin/uvicorn app.main:app --host 127.0.0.1 --port 8000
 
 ## Access the API
   Open your browser and direct to http://localhost:8000
